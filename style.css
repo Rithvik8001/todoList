@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(140deg, #ff9966, #ff5e62);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+.header {
+  font-size: 1.5rem;
+}
+
+.header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  border: none;
+  font-size: 2rem;
+}
+
+form button {
+  background: wheat;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+form button:hover {
+  background: #d88771;
+  color: white;
+}
